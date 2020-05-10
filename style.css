@@ -1,0 +1,313 @@
+/*
+Theme name: Coder Jibon
+Theme URL: https://www.coderjibon.com
+Author name: Jibon roy
+Author URl: https://www.coderjibon.com
+Description: Hi, My name is Jibon. I am a professional Wordpress developer. I love to work with WordPress. I have been completed more than 100 projects on Wordpress Themes Customization. I have worked with various technologies including , HTML5,  CSS3,  PSD to HTML,  Bootstrap,  JavaScript,  JQuery,  PSD to Bootstrap,  PHP,  WordPress, wp-theme , plugin, woocommerce , ecommerce, woocommerce develoment, theme develoment , plugin develoment , wordpress developer . 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: coder
+Tags: WordPress Install, Premium Theme, Responsive design, (Desktop, Tablet &Smartphone compatible), Import Demo data/content, Fast loading pages, Ecommerce, Functionality., All the plugins you will need, Speed up your, WordPress website, Bug Fixes, Social share buttons, Backup, Cloning & Migration, User-friendly admin panel, Re-design your existing site, High-Quality, Slider, SEO friendly structure, Fully secure website, Content from, blog integration, Google map, Social media integration, Clear navigation across the site, Live Chat option
+
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+.fb-header {
+	background: linear-gradient(#46639E, #3B5998);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #133783;
+}
+.mid {
+	width: 80%;
+	margin: auto;
+}
+.logo {
+	width: 60%;
+	float: left;
+	margin-top: 25px;
+}
+.login-area{
+	width: 40%;
+	float: left;
+}
+.login1 input, .login2 input {
+	display: block;
+	border: 1px solid #1d2a5b;
+	padding: 3px;
+	margin-top: 3px;
+
+}
+
+.login1, .login2, .login3 {
+	float: left;
+	margin-right: 10px;
+}
+
+.login1 label , .login2 label {
+	color: #FFF;
+	font-size: 12px;
+}
+
+.login2 a {
+	text-decoration: none; 
+	font-size: 12px;
+	color: #9cb4d8;
+}
+.login2 a:hover {
+	text-decoration: underline;
+}
+
+.login3 input  {
+	border: 1px solid #29487d;
+	background-color: #4267b2;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	padding:  3px;
+	font-size: 11px;
+	cursor: pointer;
+	margin-top: 24px;
+}
+
+.login3 {
+	margin-right: 0px;
+}
+
+.fb-body {
+	background: linear-gradient(white, #D3D8E8);
+	overflow: hidden;
+}
+
+.body-left {
+	width: 57%;
+	float: left;
+}
+
+.body-right {
+	width: 43%;
+	float: left;
+}
+
+.body-left h2 {
+	margin-top: 40px;
+	font-size: 20px;
+	color: #0e385f;
+	width: 86%;
+
+}
+
+.body-right h1 {
+	font-size: 36px;
+	color: #333;
+	margin-top: 20px;
+}
+
+.body-right > p {
+	color: #1d2129;
+	font-size: 19px;
+	margin: 10px 0px 15px 0px;
+}
+
+.input-box {
+	overflow: hidden;
+	width: 86%;
+}
+
+.input-box  input {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	padding: 8px 10px;
+	margin-bottom: 5px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+.input-box  input:nth-child(1){
+	width: 49%;
+	float: left;
+}
+
+.input-box  input:nth-child(2){
+	width: 49%;
+	float: right;
+}
+
+.birthday {
+	margin: 10px 0px;
+	overflow: hidden;
+}
+
+.birthday h2 {
+	color:#1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+
+
+.birthday select {
+	border: 1px solid #bdc7d8;
+	font-size: 13px;
+	padding: 5px;
+	float: left;
+	display: block;
+}
+
+.birthday a {
+	font-size: 11px;
+	text-decoration: none; 
+	color: #365899;
+	width: 150px;
+	display: table;
+	float: left;
+	margin-left: 10px;
+}
+
+.birthday a:hover {
+	text-decoration: underline;
+}
+
+.gender {
+	margin: 20px 0px;
+}
+
+.gender p {
+	font-size: 11px;
+	color: #777;
+	margin: 15px 0px;
+	width: 316px;
+}
+.gender p a {
+	text-decoration: none;
+	font-size: 11px;
+	color: #365899;
+}
+
+.gender p a:hover {
+	text-decoration: underline;
+}
+
+.gender label {
+	font-size: 18px;
+	color: #1d2129;
+	margin-right: 15px;
+	vertical-align: top;
+	line-height: 25px;
+}
+
+.gender input {
+	margin-right: 2px;
+}
+
+.button {
+	margin: 20px 0px;
+}
+
+.button p{
+	font-size: 13px;
+	color: #666;
+	font-weight: bold;
+	margin-top: 40px;
+
+}
+
+.button p a {
+	text-decoration: none;
+	color: #365899;
+}
+
+.button p a:hover {
+	text-decoration: underline;
+}
+
+.button input {
+	padding:  7px 20px;
+	font-size: 19px;
+	font-weight: bold; 
+	color: #FFF;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+
+.button input:hover {
+	background:  linear-gradient(#79bc64, #578843);
+}
+
+/* footer style  */
+
+.fb-footer {
+
+}
+
+.f-top {
+	border-bottom: 1px solid #dddfe2;
+}
+
+.f-top ul {
+	list-style: none;
+}
+
+.f-top ul li {
+	display: inline-block;
+}
+
+.f-top ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #365899;
+	padding: 10px 7px;
+	display: block;
+}
+
+.f-top ul li a:hover {
+	text-decoration: underline;
+}
+
+.f-middle {
+	padding: 5px 0px;
+}
+.f-middle ul {
+	list-style: none;
+
+}
+.f-middle ul li {
+	display: inline-block;
+	width: 8.5%;
+}
+
+.f-middle ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #365899;
+	display: block;
+	padding: 0px 7px;
+}
+.f-middle ul li a:hover {
+	text-decoration: underline;
+}
+
+.f-bottom p{
+	color:  #737373;
+	font-size: 11px;
+	margin: 20px 0px;
+	padding: 7px;
+}
+
+
+
+
